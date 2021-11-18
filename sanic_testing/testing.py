@@ -48,7 +48,7 @@ class TestingResponse(httpx.Response):
         return self._json
 
 
-def _blank(self):
+def _blank(self, *args, **kwargs):
     ...
 
 
